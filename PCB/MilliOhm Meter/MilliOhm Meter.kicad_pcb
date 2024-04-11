@@ -2107,11 +2107,11 @@
 	(footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "1193bf6d-0838-4250-8cdf-c9a8c8a44734")
-		(at 226.695 46.99 90)
+		(at 222.885 47.117 180)
 		(descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C3"
-			(at 0 0 270)
+			(at 0 0 180)
 			(layer "F.SilkS")
 			(uuid "e8d4e8d9-3589-47b6-978a-980606959d12")
 			(effects
@@ -2122,7 +2122,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 0 1.85 270)
+			(at 0 1.85 180)
 			(layer "F.Fab")
 			(uuid "07bd0c64-632d-4772-887f-17980b2919e9")
 			(effects
@@ -2133,7 +2133,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-			(at 0 0 90)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -2145,7 +2145,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 90)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -2157,7 +2157,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 0 0 90)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -2174,16 +2174,6 @@
 		(sheetfile "MilliOhm Meter.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start -0.711252 -0.91)
-			(end 0.711252 -0.91)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "c65ba1dd-5cc3-42fa-bcd7-5c6eb0ea8ce7")
-		)
-		(fp_line
 			(start -0.711252 0.91)
 			(end 0.711252 0.91)
 			(stroke
@@ -2194,24 +2184,14 @@
 			(uuid "e6d38482-dde8-4e16-9306-61601eaaa3ee")
 		)
 		(fp_line
-			(start 2.48 -1.15)
-			(end 2.48 1.15)
+			(start -0.711252 -0.91)
+			(end 0.711252 -0.91)
 			(stroke
-				(width 0.05)
+				(width 0.12)
 				(type solid)
 			)
-			(layer "F.CrtYd")
-			(uuid "2f10874f-b986-4793-83f4-7d56c6151f06")
-		)
-		(fp_line
-			(start -2.48 -1.15)
-			(end 2.48 -1.15)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "bca55577-7d99-46f6-997d-2df71c1e7b93")
+			(layer "F.SilkS")
+			(uuid "c65ba1dd-5cc3-42fa-bcd7-5c6eb0ea8ce7")
 		)
 		(fp_line
 			(start 2.48 1.15)
@@ -2224,6 +2204,16 @@
 			(uuid "47c5b826-ec0d-4f1a-a737-646ad12b3f60")
 		)
 		(fp_line
+			(start 2.48 -1.15)
+			(end 2.48 1.15)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "2f10874f-b986-4793-83f4-7d56c6151f06")
+		)
+		(fp_line
 			(start -2.48 1.15)
 			(end -2.48 -1.15)
 			(stroke
@@ -2234,24 +2224,14 @@
 			(uuid "635c378d-4524-4af0-9a2e-d3ed90f85f9e")
 		)
 		(fp_line
-			(start 1.6 -0.8)
-			(end 1.6 0.8)
+			(start -2.48 -1.15)
+			(end 2.48 -1.15)
 			(stroke
-				(width 0.1)
+				(width 0.05)
 				(type solid)
 			)
-			(layer "F.Fab")
-			(uuid "3c1d601c-0098-4b37-bedf-f225921c8581")
-		)
-		(fp_line
-			(start -1.6 -0.8)
-			(end 1.6 -0.8)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "126898d8-1d17-4d38-8ea2-eb03c4f00e51")
+			(layer "F.CrtYd")
+			(uuid "bca55577-7d99-46f6-997d-2df71c1e7b93")
 		)
 		(fp_line
 			(start 1.6 0.8)
@@ -2264,6 +2244,16 @@
 			(uuid "bc284685-2608-4bfa-a849-76fe458c6f01")
 		)
 		(fp_line
+			(start 1.6 -0.8)
+			(end 1.6 0.8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "3c1d601c-0098-4b37-bedf-f225921c8581")
+		)
+		(fp_line
 			(start -1.6 0.8)
 			(end -1.6 -0.8)
 			(stroke
@@ -2273,8 +2263,18 @@
 			(layer "F.Fab")
 			(uuid "198ee9fe-b4a2-47aa-94f0-2aaf4d29e7cf")
 		)
+		(fp_line
+			(start -1.6 -0.8)
+			(end 1.6 -0.8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "126898d8-1d17-4d38-8ea2-eb03c4f00e51")
+		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 180)
 			(layer "F.Fab")
 			(uuid "a437b97d-b768-4f7b-b003-0986ba13f629")
 			(effects
@@ -2285,7 +2285,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -1.5625 0 90)
+			(at -1.5625 0 180)
 			(size 1.325 1.8)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.188679)
@@ -2294,7 +2294,7 @@
 			(uuid "9e124e89-46d7-44a2-932c-dd3f00ae86f0")
 		)
 		(pad "2" smd roundrect
-			(at 1.5625 0 90)
+			(at 1.5625 0 180)
 			(size 1.325 1.8)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.188679)
@@ -3051,11 +3051,11 @@
 	(footprint "Capacitor_THT:CP_Radial_Tantal_D5.5mm_P2.50mm"
 		(layer "F.Cu")
 		(uuid "341ad0aa-bca8-4af5-8cf4-058870e18f38")
-		(at 229.87 38.808631 -90)
+		(at 220.218 36.703 180)
 		(descr "CP, Radial_Tantal series, Radial, pin pitch=2.50mm, , diameter=5.5mm, Tantal Electrolytic Capacitor, http://cdn-reichelt.de/documents/datenblatt/B300/TANTAL-TB-Serie%23.pdf")
 		(tags "CP Radial_Tantal series Radial pin pitch 2.50mm  diameter 5.5mm Tantal Electrolytic Capacitor")
 		(property "Reference" "C7"
-			(at 1.25 -4 90)
+			(at 1.25 -1.905 180)
 			(layer "F.SilkS")
 			(uuid "d924cc8c-5e76-442a-9a77-af82f68bcefe")
 			(effects
@@ -3066,7 +3066,7 @@
 			)
 		)
 		(property "Value" "22uF"
-			(at 1.25 4 90)
+			(at 1.25 4 180)
 			(layer "F.Fab")
 			(uuid "a76369a2-6e7b-4e7a-9d61-2125927ae833")
 			(effects
@@ -3077,7 +3077,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:CP_Radial_Tantal_D5.5mm_P2.50mm"
-			(at 0 0 -90)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -3089,7 +3089,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 -90)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -3101,7 +3101,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, US symbol"
-			(at 0 0 -90)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -3118,16 +3118,6 @@
 		(sheetfile "MilliOhm Meter.kicad_sch")
 		(attr through_hole)
 		(fp_line
-			(start -1.822262 -1.615)
-			(end -1.272262 -1.615)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "1e4343b5-4d31-4317-8b2c-bb7deee256f2")
-		)
-		(fp_line
 			(start -1.547262 -1.89)
 			(end -1.547262 -1.34)
 			(stroke
@@ -3136,6 +3126,16 @@
 			)
 			(layer "F.SilkS")
 			(uuid "8beee99a-37bf-4ab3-8e27-4dae490d00be")
+		)
+		(fp_line
+			(start -1.822262 -1.615)
+			(end -1.272262 -1.615)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "1e4343b5-4d31-4317-8b2c-bb7deee256f2")
 		)
 		(fp_circle
 			(center 1.25 0)
@@ -3160,16 +3160,6 @@
 			(uuid "cdd4a60f-4397-4e1b-8ecb-c523c37fa125")
 		)
 		(fp_line
-			(start -1.099131 -1.1975)
-			(end -0.549131 -1.1975)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "4a1eaf6b-3920-4ff1-890f-addadf4e87ba")
-		)
-		(fp_line
 			(start -0.824131 -1.4725)
 			(end -0.824131 -0.9225)
 			(stroke
@@ -3178,6 +3168,16 @@
 			)
 			(layer "F.Fab")
 			(uuid "ea97a443-3d60-4bb6-aecc-bb234e2bf522")
+		)
+		(fp_line
+			(start -1.099131 -1.1975)
+			(end -0.549131 -1.1975)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "4a1eaf6b-3920-4ff1-890f-addadf4e87ba")
 		)
 		(fp_circle
 			(center 1.25 0)
@@ -3191,7 +3191,7 @@
 			(uuid "e616a456-d1f5-4203-a5d3-eb2fa3563171")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 1.25 0 90)
+			(at 1.25 0 180)
 			(layer "F.Fab")
 			(uuid "80487da9-f075-446d-beac-08ea343c8182")
 			(effects
@@ -3202,7 +3202,7 @@
 			)
 		)
 		(pad "1" thru_hole rect
-			(at 0 0 270)
+			(at 0 0 180)
 			(size 1.6 1.6)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -3212,7 +3212,7 @@
 			(uuid "2061aca5-6961-43c0-991a-c651f9b82108")
 		)
 		(pad "2" thru_hole circle
-			(at 2.5 0 270)
+			(at 2.5 0 180)
 			(size 1.6 1.6)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -3586,11 +3586,11 @@
 	(footprint "Capacitor_THT:CP_Radial_Tantal_D5.5mm_P2.50mm"
 		(layer "F.Cu")
 		(uuid "35d5c232-8caa-403a-8158-71b3c53e7879")
-		(at 237.49 38.808631 -90)
+		(at 227.510369 36.703 180)
 		(descr "CP, Radial_Tantal series, Radial, pin pitch=2.50mm, , diameter=5.5mm, Tantal Electrolytic Capacitor, http://cdn-reichelt.de/documents/datenblatt/B300/TANTAL-TB-Serie%23.pdf")
 		(tags "CP Radial_Tantal series Radial pin pitch 2.50mm  diameter 5.5mm Tantal Electrolytic Capacitor")
 		(property "Reference" "C9"
-			(at 1.25 -4 90)
+			(at 1.27 -1.905 180)
 			(layer "F.SilkS")
 			(uuid "f3f6dea6-20e8-46a2-aa32-2a3ac4c96962")
 			(effects
@@ -3601,7 +3601,7 @@
 			)
 		)
 		(property "Value" "22uF"
-			(at 1.25 4 90)
+			(at 1.25 4 180)
 			(layer "F.Fab")
 			(uuid "03a5283c-3610-4a5b-a1bd-554dad7e8332")
 			(effects
@@ -3612,7 +3612,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:CP_Radial_Tantal_D5.5mm_P2.50mm"
-			(at 0 0 -90)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -3624,7 +3624,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 -90)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -3636,7 +3636,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, US symbol"
-			(at 0 0 -90)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -3653,16 +3653,6 @@
 		(sheetfile "MilliOhm Meter.kicad_sch")
 		(attr through_hole)
 		(fp_line
-			(start -1.822262 -1.615)
-			(end -1.272262 -1.615)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "ff5fad62-18ee-4abc-875b-3ffe61be39f9")
-		)
-		(fp_line
 			(start -1.547262 -1.89)
 			(end -1.547262 -1.34)
 			(stroke
@@ -3671,6 +3661,16 @@
 			)
 			(layer "F.SilkS")
 			(uuid "cc11aa8b-ee11-4f68-bab1-ea4463925731")
+		)
+		(fp_line
+			(start -1.822262 -1.615)
+			(end -1.272262 -1.615)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "ff5fad62-18ee-4abc-875b-3ffe61be39f9")
 		)
 		(fp_circle
 			(center 1.25 0)
@@ -3695,16 +3695,6 @@
 			(uuid "d46a66f7-8069-458a-8353-691d5519f1af")
 		)
 		(fp_line
-			(start -1.099131 -1.1975)
-			(end -0.549131 -1.1975)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "74fed8c8-427a-4bbc-9255-969ddf1be608")
-		)
-		(fp_line
 			(start -0.824131 -1.4725)
 			(end -0.824131 -0.9225)
 			(stroke
@@ -3713,6 +3703,16 @@
 			)
 			(layer "F.Fab")
 			(uuid "612ef49d-1678-4dfa-893e-334e5c75f481")
+		)
+		(fp_line
+			(start -1.099131 -1.1975)
+			(end -0.549131 -1.1975)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "74fed8c8-427a-4bbc-9255-969ddf1be608")
 		)
 		(fp_circle
 			(center 1.25 0)
@@ -3726,7 +3726,7 @@
 			(uuid "f18ce4b5-1156-4928-94e8-ffbffddd5968")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 1.25 0 90)
+			(at 1.25 0 180)
 			(layer "F.Fab")
 			(uuid "5465be1c-48e2-4267-80a9-8a98b83ec5a1")
 			(effects
@@ -3737,7 +3737,7 @@
 			)
 		)
 		(pad "1" thru_hole rect
-			(at 0 0 270)
+			(at 0 0 180)
 			(size 1.6 1.6)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -3747,7 +3747,7 @@
 			(uuid "b7ddf295-9c4c-4355-a721-b24f94bdb383")
 		)
 		(pad "2" thru_hole circle
-			(at 2.5 0 270)
+			(at 2.5 0 180)
 			(size 1.6 1.6)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -4946,22 +4946,22 @@
 	(footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "61d19949-3fbf-42cd-98bb-c7133c2c4cf0")
-		(at 214.63 56.865)
+		(at 214.376 48.514)
 		(descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C5"
-			(at 0 -1.85 0)
+			(at 0 0 360)
 			(layer "F.SilkS")
 			(uuid "066628a5-055d-488b-bdff-2e75ea5d886e")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.65 0.65)
 					(thickness 0.15)
 				)
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 0 1.85 0)
+			(at 0 1.85 360)
 			(layer "F.Fab")
 			(uuid "d815f578-0e53-4df0-8953-0486ee7dcc15")
 			(effects
@@ -5113,7 +5113,7 @@
 			(uuid "d8cbf674-0d21-45de-b34b-f5bd2c680f96")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 360)
 			(layer "F.Fab")
 			(uuid "a55f422d-8b6c-43a2-8ab0-427befefa67f")
 			(effects
@@ -6851,11 +6851,11 @@
 	(footprint "Capacitor_THT:CP_Radial_Tantal_D5.5mm_P2.50mm"
 		(layer "F.Cu")
 		(uuid "9f18aa2a-1fbe-4c4c-b2d5-074c6e0869b7")
-		(at 242.643631 45.72)
+		(at 207.264 44.704 90)
 		(descr "CP, Radial_Tantal series, Radial, pin pitch=2.50mm, , diameter=5.5mm, Tantal Electrolytic Capacitor, http://cdn-reichelt.de/documents/datenblatt/B300/TANTAL-TB-Serie%23.pdf")
 		(tags "CP Radial_Tantal series Radial pin pitch 2.50mm  diameter 5.5mm Tantal Electrolytic Capacitor")
 		(property "Reference" "C10"
-			(at 1.25 -4 360)
+			(at 1.323369 -1.778 270)
 			(layer "F.SilkS")
 			(uuid "c373a3ce-844f-4d17-abec-eb8f76572ff7")
 			(effects
@@ -6866,7 +6866,7 @@
 			)
 		)
 		(property "Value" "22uF"
-			(at 1.25 4 360)
+			(at 1.25 4 270)
 			(layer "F.Fab")
 			(uuid "7dd3c4e1-ff8a-4c38-bf96-97ce6be9f4b1")
 			(effects
@@ -6877,7 +6877,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:CP_Radial_Tantal_D5.5mm_P2.50mm"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -6889,7 +6889,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -6901,7 +6901,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, US symbol"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -6918,16 +6918,6 @@
 		(sheetfile "MilliOhm Meter.kicad_sch")
 		(attr through_hole)
 		(fp_line
-			(start -1.822262 -1.615)
-			(end -1.272262 -1.615)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "d495ac51-f4d2-4899-83b4-d187cc856a26")
-		)
-		(fp_line
 			(start -1.547262 -1.89)
 			(end -1.547262 -1.34)
 			(stroke
@@ -6936,6 +6926,16 @@
 			)
 			(layer "F.SilkS")
 			(uuid "332996f0-00d3-4a2e-a5a7-4513892c4c8f")
+		)
+		(fp_line
+			(start -1.822262 -1.615)
+			(end -1.272262 -1.615)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "d495ac51-f4d2-4899-83b4-d187cc856a26")
 		)
 		(fp_circle
 			(center 1.25 0)
@@ -6960,16 +6960,6 @@
 			(uuid "cab528e1-c44b-4f55-88ec-c59aa471e9c2")
 		)
 		(fp_line
-			(start -1.099131 -1.1975)
-			(end -0.549131 -1.1975)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "c7040c91-0f67-4ea9-a972-e176fcb38f24")
-		)
-		(fp_line
 			(start -0.824131 -1.4725)
 			(end -0.824131 -0.9225)
 			(stroke
@@ -6978,6 +6968,16 @@
 			)
 			(layer "F.Fab")
 			(uuid "5a3d6041-d3c9-4d93-8fa2-1379476d2de0")
+		)
+		(fp_line
+			(start -1.099131 -1.1975)
+			(end -0.549131 -1.1975)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "c7040c91-0f67-4ea9-a972-e176fcb38f24")
 		)
 		(fp_circle
 			(center 1.25 0)
@@ -6991,7 +6991,7 @@
 			(uuid "5e700536-6fd3-46da-a0ed-14afda4c157a")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 1.25 0 360)
+			(at 1.25 0 270)
 			(layer "F.Fab")
 			(uuid "d0391263-a15c-4b8d-909c-ebd2312ba828")
 			(effects
@@ -7002,7 +7002,7 @@
 			)
 		)
 		(pad "1" thru_hole rect
-			(at 0 0)
+			(at 0 0 90)
 			(size 1.6 1.6)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -7012,7 +7012,7 @@
 			(uuid "d026261d-9a86-4ec8-a673-a210b6ffa9b0")
 		)
 		(pad "2" thru_hole circle
-			(at 2.5 0)
+			(at 2.5 0 90)
 			(size 1.6 1.6)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -7456,11 +7456,11 @@
 	(footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "ad3a4029-0a3d-4368-85d3-6fa78b963198")
-		(at 221.1324 43.4848 90)
+		(at 222.885 44.323)
 		(descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C4"
-			(at 0 0 270)
+			(at 0 0 360)
 			(layer "F.SilkS")
 			(uuid "7422c678-6e82-4754-96b5-f12246d24f7a")
 			(effects
@@ -7471,7 +7471,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 0 1.85 270)
+			(at 0 1.85 360)
 			(layer "F.Fab")
 			(uuid "d30262da-79b2-4a3b-84cb-975e209e2687")
 			(effects
@@ -7482,7 +7482,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -7494,7 +7494,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -7506,7 +7506,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -7543,16 +7543,6 @@
 			(uuid "bf0ded57-9fb2-4555-8c07-fb223e5e516e")
 		)
 		(fp_line
-			(start 2.48 -1.15)
-			(end 2.48 1.15)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "a6ccc41e-9341-4bd9-b3fa-c8b3061ce5b0")
-		)
-		(fp_line
 			(start -2.48 -1.15)
 			(end 2.48 -1.15)
 			(stroke
@@ -7561,16 +7551,6 @@
 			)
 			(layer "F.CrtYd")
 			(uuid "18f0542a-35a4-4a7c-960d-c68af3a8d164")
-		)
-		(fp_line
-			(start 2.48 1.15)
-			(end -2.48 1.15)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "4971e475-88d6-4312-b18d-935b8b9b134c")
 		)
 		(fp_line
 			(start -2.48 1.15)
@@ -7583,14 +7563,24 @@
 			(uuid "0e27c6b7-5a3a-49eb-941a-8a2a283c303d")
 		)
 		(fp_line
-			(start 1.6 -0.8)
-			(end 1.6 0.8)
+			(start 2.48 -1.15)
+			(end 2.48 1.15)
 			(stroke
-				(width 0.1)
+				(width 0.05)
 				(type solid)
 			)
-			(layer "F.Fab")
-			(uuid "955743ed-f924-42e8-a36d-9d94900ac281")
+			(layer "F.CrtYd")
+			(uuid "a6ccc41e-9341-4bd9-b3fa-c8b3061ce5b0")
+		)
+		(fp_line
+			(start 2.48 1.15)
+			(end -2.48 1.15)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "4971e475-88d6-4312-b18d-935b8b9b134c")
 		)
 		(fp_line
 			(start -1.6 -0.8)
@@ -7603,16 +7593,6 @@
 			(uuid "d3f6d70a-01d9-4195-b779-104e1b41cb48")
 		)
 		(fp_line
-			(start 1.6 0.8)
-			(end -1.6 0.8)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "c1f82eaf-ebbb-426d-b1b3-c9fa920bf399")
-		)
-		(fp_line
 			(start -1.6 0.8)
 			(end -1.6 -0.8)
 			(stroke
@@ -7622,8 +7602,28 @@
 			(layer "F.Fab")
 			(uuid "eb70600f-01e7-4d09-ab31-065aa0eafec9")
 		)
+		(fp_line
+			(start 1.6 -0.8)
+			(end 1.6 0.8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "955743ed-f924-42e8-a36d-9d94900ac281")
+		)
+		(fp_line
+			(start 1.6 0.8)
+			(end -1.6 0.8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "c1f82eaf-ebbb-426d-b1b3-c9fa920bf399")
+		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 360)
 			(layer "F.Fab")
 			(uuid "c190e92a-d175-4ee7-bce4-c632133b1c74")
 			(effects
@@ -7634,7 +7634,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -1.5625 0 90)
+			(at -1.5625 0)
 			(size 1.325 1.8)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.188679)
@@ -7643,7 +7643,7 @@
 			(uuid "e707e3f8-618d-4f7a-ac98-4c4fc61a2468")
 		)
 		(pad "2" smd roundrect
-			(at 1.5625 0 90)
+			(at 1.5625 0)
 			(size 1.325 1.8)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.188679)
@@ -8502,11 +8502,11 @@
 	(footprint "Capacitor_THT:CP_Radial_Tantal_D5.5mm_P2.50mm"
 		(layer "F.Cu")
 		(uuid "c693bd95-ebb6-4e61-8700-e82c9bd79ed5")
-		(at 242.643631 53.975)
+		(at 212.725 36.703 180)
 		(descr "CP, Radial_Tantal series, Radial, pin pitch=2.50mm, , diameter=5.5mm, Tantal Electrolytic Capacitor, http://cdn-reichelt.de/documents/datenblatt/B300/TANTAL-TB-Serie%23.pdf")
 		(tags "CP Radial_Tantal series Radial pin pitch 2.50mm  diameter 5.5mm Tantal Electrolytic Capacitor")
 		(property "Reference" "C8"
-			(at 1.25 -4 360)
+			(at 1.323369 -1.905 180)
 			(layer "F.SilkS")
 			(uuid "29e2f7aa-65d2-4957-a7fd-35fa2e0b2801")
 			(effects
@@ -8517,7 +8517,7 @@
 			)
 		)
 		(property "Value" "22uF"
-			(at 1.25 4 360)
+			(at 1.25 4 180)
 			(layer "F.Fab")
 			(uuid "2fd9ab44-3643-4dc2-a188-99c11fc161a2")
 			(effects
@@ -8528,7 +8528,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:CP_Radial_Tantal_D5.5mm_P2.50mm"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -8540,7 +8540,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -8552,7 +8552,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, US symbol"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -8569,16 +8569,6 @@
 		(sheetfile "MilliOhm Meter.kicad_sch")
 		(attr through_hole)
 		(fp_line
-			(start -1.822262 -1.615)
-			(end -1.272262 -1.615)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "2b360d29-7b6f-4fd2-abf8-08e3840d79a1")
-		)
-		(fp_line
 			(start -1.547262 -1.89)
 			(end -1.547262 -1.34)
 			(stroke
@@ -8587,6 +8577,16 @@
 			)
 			(layer "F.SilkS")
 			(uuid "ad3c69c6-ca14-4895-a17a-25c41172f434")
+		)
+		(fp_line
+			(start -1.822262 -1.615)
+			(end -1.272262 -1.615)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "2b360d29-7b6f-4fd2-abf8-08e3840d79a1")
 		)
 		(fp_circle
 			(center 1.25 0)
@@ -8611,16 +8611,6 @@
 			(uuid "1d93b796-7131-430f-8544-8cd5791837c0")
 		)
 		(fp_line
-			(start -1.099131 -1.1975)
-			(end -0.549131 -1.1975)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "9071366c-01b1-4253-b5a4-2bfcd8fd960d")
-		)
-		(fp_line
 			(start -0.824131 -1.4725)
 			(end -0.824131 -0.9225)
 			(stroke
@@ -8629,6 +8619,16 @@
 			)
 			(layer "F.Fab")
 			(uuid "98b7ce35-7bce-4970-bd45-a28e4525898d")
+		)
+		(fp_line
+			(start -1.099131 -1.1975)
+			(end -0.549131 -1.1975)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "9071366c-01b1-4253-b5a4-2bfcd8fd960d")
 		)
 		(fp_circle
 			(center 1.25 0)
@@ -8642,7 +8642,7 @@
 			(uuid "c3b08fcd-7a2a-4132-ba5e-9687cea9bf96")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 1.25 0 360)
+			(at 1.25 0 180)
 			(layer "F.Fab")
 			(uuid "ba291624-7436-4866-ba9f-ed2a35dce943")
 			(effects
@@ -8653,7 +8653,7 @@
 			)
 		)
 		(pad "1" thru_hole rect
-			(at 0 0)
+			(at 0 0 180)
 			(size 1.6 1.6)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -8663,7 +8663,7 @@
 			(uuid "be3fdf4c-6781-4f98-8730-23cf0092d30f")
 		)
 		(pad "2" thru_hole circle
-			(at 2.5 0)
+			(at 2.5 0 180)
 			(size 1.6 1.6)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -11023,11 +11023,11 @@
 	(footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 		(layer "F.Cu")
 		(uuid "f367b894-581c-4c28-8eef-cdab68f75e1a")
-		(at 215.265 43.815)
+		(at 215.265 43.722)
 		(descr "SOIC, 8 Pin (JEDEC MS-012AA, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_8.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOIC SO")
 		(property "Reference" "U4"
-			(at 0 -3.4 360)
+			(at 0 -3.4 0)
 			(layer "F.SilkS")
 			(uuid "2b8b7169-a7fc-4b2a-8f46-596733b0b5b9")
 			(effects
@@ -11038,7 +11038,7 @@
 			)
 		)
 		(property "Value" "MAX680CPA+"
-			(at 0 3.4 360)
+			(at 0.127 2.765 0)
 			(layer "F.Fab")
 			(uuid "cc4c1411-e35b-4641-8f4f-379b9f3e4561")
 			(effects
@@ -11387,7 +11387,7 @@
 			(uuid "315096d5-b863-4f41-af85-92e9972e9864")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "7dac36bb-b7d9-406c-9841-5973f0c970bb")
 			(effects
